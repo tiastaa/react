@@ -1,6 +1,6 @@
 const AnimeCard = (props) => {
   return (
-    <div class="anime-card-box">
+    <div class="anime-card-box" onClick={props.ShowFullAnimeInfo}>
       <div class="anime-card-img">{/* <img :src="props." alt="" /> */}</div>
       <div class="anime-card-title">{props.anime.title}</div>
       <div class="anime-card-additional-info-box">
